@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: live probe of /.well-known/* on neura-robotics.com and neuraverse.com
+note: >-
+  No real well-known discovery documents are published. neura-robotics.com returns 404 for
+  every probed path. neuraverse.com is an Angular single-page application that returns its
+  index.html shell (HTTP 200, content-type text/html) for every path including
+  /.well-known/security.txt and /.well-known/openid-configuration, so those 200s are SPA
+  catch-all false positives, not genuine documents. No document saved; no WellKnown pointer
+  wired.
+hosts:
+- host: https://neura-robotics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://neuraverse.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    real: false
+    reason: SPA index.html shell (content-type text/html), not a real security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    real: false
+    reason: SPA index.html shell, not a real OIDC discovery document

@@ -1,0 +1,31 @@
+# NEURA Robotics
+
+> NEURA Robotics is a German deep-tech company building cognitive and humanoid robots for industry, business, and everyday life. It develops robots such as the 4NE-1 humanoid and the MAiRA, MiPA, LARA, and MAV cognitive cobots, powered by its proprietary AI system AURA. The Neuraverse ecosystem connects robots, developers, and partners so AI models, applications, and hardware come together. As of this profile the company exposes no public, documented developer API — neuraverse.com is a gated single-page application portal and no OpenAPI, developer documentation, or well-known discovery endpoints are published.
+
+## Company
+
+- [Website](https://neura-robotics.com/): NEURA Robotics corporate site.
+- [About Us](https://neura-robotics.com/company-about-us/): Company background and mission.
+- [Neuraverse Ecosystem](https://neuraverse.com/): Gated platform / app-marketplace portal connecting robots, developers, and industry partners.
+- [Neuraverse overview](https://neura-robotics.com/neuraverse/): Marketing overview of the Neuraverse ecosystem.
+
+## Products
+
+- [Neuraverse products](https://neura-robotics.com/neuraverse/): 4NE-1 humanoid, MAiRA, MiPA, LARA, and MAV cognitive robots, powered by AURA AI.
+
+## News
+
+- [Blog](https://neura-robotics.com/blogs/): Company blog.
+- [News](https://neura-robotics.com/news/): Company news.
+- [Press](https://neura-robotics.com/press/): Press releases and media.
+
+## Support
+
+- [Contact](https://neura-robotics.com/contact-us/): Contact / support.
+- [GitHub organization](https://github.com/neura-robotics/): Public GitHub organization (currently no public repositories).
+
+## Legal
+
+- [Privacy Policy](https://neura-robotics.com/privacy-policy/)
+- [Terms](https://neura-robotics.com/terms/)
+- [Imprint](https://neura-robotics.com/imprint/)

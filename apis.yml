@@ -1,9 +1,27 @@
 aid: neura-robotics
 name: NEURA Robotics
-description: 'NEURA Robotics is a company surfaced as a portfolio company of hv-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai-enterprise-software; deep-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'NEURA Robotics is a German deep-tech company building cognitive and humanoid
+  robots for industry, business, and everyday life. It develops robots such as the 4NE-1
+  humanoid and the MAiRA, MiPA, LARA, and MAV cognitive cobots, powered by its proprietary
+  AI system AURA. Its Neuraverse ecosystem is a connected platform and app marketplace that
+  links robots, developers, and partners so AI models, applications, and hardware come together
+  to make the robots smarter. NEURA Robotics is backed by HV Capital. As of this profile the
+  company exposes no public, documented developer API: neuraverse.com is a gated single-page
+  application portal, and no OpenAPI, developer documentation, or well-known discovery endpoints
+  are published on its public surface.'
 url: https://raw.githubusercontent.com/api-evangelist/neura-robotics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://neura-robotics.com/wp-content/uploads/2026/02/4NE1_Working_2-1-scaled.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +30,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Ai Enterprise Software; Deep Tech
+- Robotics
+- Humanoid Robots
+- Cognitive Robotics
+- Artificial Intelligence
+- Automation
+- Deep Tech
+- Cobots
 apis: []
+common:
+- type: DomainSecurity
+  url: security/neura-robotics-domain-security.yml
+- type: Website
+  url: https://neura-robotics.com/
+- type: Portal
+  name: Neuraverse Ecosystem
+  url: https://neuraverse.com/
+- type: Blog
+  url: https://neura-robotics.com/blogs/
+- type: Support
+  url: https://neura-robotics.com/contact-us/
+- type: GitHubOrganization
+  url: https://github.com/neura-robotics/
+- type: PrivacyPolicy
+  url: https://neura-robotics.com/privacy-policy/
+- type: TermsOfService
+  url: https://neura-robotics.com/terms/
+- type: LLMsTxt
+  url: llms/neura-robotics-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
